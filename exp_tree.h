@@ -33,7 +33,7 @@ pointer pop(pointer *tree);
  * Remove a raiz da árvore, retornando esse nó
  */
 
-int parser(pointer *tree, char string[]);
+int parser(pointer *tree, char *string[]);
 /*
  * Recebe uma string e devolve uma árvore que representa a expressão
  * Retorna TRUE se realizada com sucesso
